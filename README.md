@@ -9,6 +9,10 @@ Create div with class "countdown" and execute "setCountdown" function with any d
     <script>
     	setCountdown("Jun 07, 2021 22:20:00")
     </script>
+	
+You can also put custom test above counter by adding second argument to setCountdown function:
+
+    setCountdown("Jun 07, 2021 22:20:00", "Your custom text")
 
 Date should be in this exact format or any other, which can be used by JS Date class. 
 For UTC date append "UTC" to date string. Example: "Jun 07, 2021 22:20:00 UTC". Because by default its assumed that date is local.
