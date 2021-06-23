@@ -16,6 +16,13 @@
       sans-serif;
   }
   
+  .countdown ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex: 0 0 50%;
+  }
+
   .countdown h1 {
     font-weight: normal;
     letter-spacing: .125rem;
@@ -35,23 +42,13 @@
     font-size: 4.5rem;
   }
   
-  .countdown .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .countdown .emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-  }
-  
   @media all and (max-width: 768px) {
     .countdown h1 {
       font-size: 1.5rem;
     }
     
     .countdown li {
-      font-size: 1.125rem;
+      font-size: 1rem;
       padding: .75rem;
     }
     
