@@ -10,7 +10,7 @@ Create div with class "countdown" and execute "setCountdown" function with any d
     	setCountdown("Jun 07, 2021 22:20:00")
     </script>
 	
-You can also put custom test above counter by adding second argument to setCountdown function:
+You can also put custom text above counter by adding second argument to setCountdown function:
 
     setCountdown("Jun 07, 2021 22:20:00", "Your custom text")
 
